@@ -1,5 +1,5 @@
 # ATTENTION:  
-# This site is currently under construction, there isn't any Kobra2Neo-specific content in here yet!   
+# This site is currently under construction, there isn't any Kobra 2 Neo specific content in here yet!   
 # So please come back another time.. ;)  
 
 ---
