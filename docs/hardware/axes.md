@@ -833,25 +833,8 @@ As there aren't any specifications and replacement motors from Anycubic being av
 
 ### Limit Switch
 
-The optical limit switch of the z-axis is located at the bottom of the left z-axis aluminum profile.  
-
-![z-axis limit switch](../assets/images/axes_z-limitswitch_web.jpeg)  
-
-The little metal lever that triggers the switch is mounted to the left bracket of the x-axis gantry. When the gantry moves down, the lever slides into that slot of the optical switch and triggers it.   
-
-The following pictures show the disassembled limit switch, just in case you're looking out for a suitable third party manufactured replacement.  
-
-![z-axis limit switch open](../assets/images/axes_z-limit_open_web.jpg)  
-
-![z-axis limit switch, sideview](../assets/images/axes_z-limit_sideview-bare_web.jpg)  
-
-![z-axis limit switch, size](../assets/images/axes_z-limit-size-bare_web.jpg)  
-
-??? example "Checking The Switches (And Wires)"
-
-    You can check if the switch really isn't working by triggering it manually while the belonging axis is moving. If the movement doesn't stop, turn off your printer. Check the connectors at the switch and the mainboard if they're still in place.  
-    If everything looks fine here, then it's most likey that either a wire is broken or the switch itself is faulty. If you have a multimeter, you could measure if the switch itself is working as well as check the wires. When measuring the wires, move them around as it may be the case that a wire is slightly broken inside of the insulation and that it loses contact in a certain position of the wire itself.   
-    If the wire is broken, fix it or install a new one. If the limit switch itself is broken, disassemble the switch from the frame and put in a new one. Wire everything up again and try again triggering it manually to see if it works now.  
+There is no physical limit switch at the z-axis.  
+The probe acts as a virtual endstop.  
 
 ---
 
