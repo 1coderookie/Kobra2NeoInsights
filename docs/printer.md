@@ -5,7 +5,9 @@ The Anycubic [Kobra 2 Neo](https://www.anycubic.com/products/kobra-2-neo) is an 
   
 The Kobra 2 Neo comes partially pre-assembled, you only have to mount a few parts like the 'upstanding' z-axis frame onto the base frame.  
   
-See [Anycubic's support page](https://www.anycubic.com/pages/firmware-software) to find manuals, test files and the suggested parameters profiles for this machine.    
+See [Anycubic's support page](https://www.anycubic.com/pages/firmware-software) to find manuals, test files and the suggested parameters profiles for this machine.  
+- [Anycubic's Quick Start Guide v1.0](https://drive.google.com/file/d/1TElFHU_gZ14ZT6U1ZJ4UYihEzjxzMjE1/view?usp=drive_link)
+- [Anycubic's User Manual v1.1](https://drive.google.com/file/d/17Zqo5dXoWKUIKdZZPq3TvAJLDVpLVxuT/view?usp=drive_link)  
 
 The following pictures show the machine.  
   
