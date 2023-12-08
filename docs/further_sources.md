@@ -9,7 +9,7 @@ In the following you'll find some further sources for certain kind of informatio
 Here of course the [Anycubic website](https://www.anycubic.com) has to be mentioned first.  
 You can find [manuals and firmware](https://www.anycubic.com/pages/firmware-software) at their support page.  
 They also produced some video tutorials about e.g. changing the printhead or the mainboard. You can find them at their [guide videos page](https://www.anycubic.com/pages/guide-videos).  
-These information are also available at their [wiki page](https://wiki.anycubic.com/en/fdm-3d-printer/kobra-2-pro) they're now setting up.  
+These information are also available at their [wiki page](https://wiki.anycubic.com/en/fdm-3d-printer/kobra-2-neo) they're now setting up.  
 
 ---
 
