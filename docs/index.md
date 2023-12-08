@@ -9,7 +9,9 @@ I created this site to make it easier for users of these printers to get started
 
 ---
 
-***ATTENTION: This site does not contain any Kobra 2 Neo specific content, it's currently under construction. Sp please bear with me and come back another time.. ;)***
+***ATTENTION:***  
+***This site does not contain any Kobra 2 Neo specific content, it's currently under construction!***  
+***So please bear with me and come back another time.. ;)***
 
 ---
   
