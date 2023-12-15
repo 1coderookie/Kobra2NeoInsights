@@ -73,7 +73,8 @@ Please mind the **search field** in the header as well as the icon in the header
     - Thanks to **[simpleman118](https://www.reddit.com/user/simpleman118)** for taking a picture of the ABL height gauge!  
     - Thanks to **[Fabulous-View-5862](https://www.reddit.com/user/Fabulous-View-5862)** for allowing me to use the picture of his clumped hotend!
     - Thanks to **[Yoriko_Rayne_](https://www.reddit.com/user/Yoriko_Rayne_)** for allowing me to use the picture of how to use the ABL height gauge!  
-    
+    - Thanks to **[zyssai](https://www.reddit.com/user/zyssai)** for allowing me to use the picture of the diassembled stepper motor!
+
 ---
     
 !!! warning "Disclaimer"
