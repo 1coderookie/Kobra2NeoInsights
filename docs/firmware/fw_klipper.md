@@ -2,10 +2,9 @@
 
 # Klipper (MOD)  
 
-Anycubic decided to not make the Marlin-based source code files available yet.  
-Therefore it's not possible at this time to have a look at files like the `Configuration.h` to get the according pin assignment out of it which one would neeed to create a specific `printer.cfg`for a Klipper installation.   
-So at this time I can't provide any insights about how to install Klipper on these machines.  
-Once there were successful attempts of installing [Klipper](fw_klipper.md), you can find the information I then hopefully came across in the specific section.  
+There are investigations by different users going on about flashing Klipper to the stock mainboard. First attempts were already successful.  
+However, as there are no 100% working config files available yet, I'm not posting anything about it here yet.  
+As soon as I'll come across working solutions, I'll list them here. So please bare with me, keep an eye on this chapter and come back another time.. ;)  
  
 
 
