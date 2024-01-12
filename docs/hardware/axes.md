@@ -425,7 +425,7 @@ The plate for the bedmount itself has v-slot wheels which are running in the v-s
 
 The following picture shows the belt tensioner located at the front of the y-axis aluminum frame.  
 
-![Y-axis knob](../assets/images/y-axis_knob_web.jpg)
+![Y-axis knob](../assets/images/axes_K2Neo_Y-belt-tensioner_web.jpg)
 
 You adjust the tension of the belt by turning it clockwise for increasing the tension and turning it counter-clockwise for decreasing it.  
 
