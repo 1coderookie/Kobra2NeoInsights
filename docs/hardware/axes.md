@@ -43,7 +43,7 @@ So if you notice that e.g. the motor of the y-axis doesn't stop when the bed rea
 The x-axis of both the **Go** and the **Neo** is represented by the printhead moving along the x-axis gantry. The moving bracket (where the printed is mounted onto) is belt driven, the motor which drives the belt (6mm wide, GT-2 type) is located at the left side.   
 You can adjust the tension of the belt by using the knob at the right side of the aluminum profile where the printhead is guided onto.  
   
-![X-axis knob](../assets/images/x-axis_knob_web.jpg)
+![X-axis knob](../assets/images/axes_K2Neo_X-belt-tensioner_web.jpg)
 
 
 ---
