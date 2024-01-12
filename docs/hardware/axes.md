@@ -52,7 +52,7 @@ You can adjust the tension of the belt by using the knob at the right side of th
 
 The following picture shows the belt tensioner located at the right hand side of the x-axis gantry.  
 
-![X-axis knob](../assets/images/x-axis_knob_web.jpg)
+![X-axis knob](../assets/images/axes_K2Neo_X-belt-tensioner_web.jpg)
 
 You adjust the tension of the belt by turning it clockwise for increasing the tension and turning it counter-clockwise for decreasing it.  
 
@@ -231,7 +231,7 @@ See the following picture where you can clearly see a heavy wear and tear. Accor
 
 The limit switch is located inside of the blue plastic cover at the left hand side (where the motor is mounted at as well).   
 
-![X-axis limit switch frontview](../assets/images/axes_x-limit-switch_web.jpg)  
+![X-axis limit switch frontview](../assets/images/axes_K2Neo_X-limitswitch_web.jpg)  
   
 ![X-axis limit switch backview](../assets/images/axes_x-axis-limit-switch_web.jpg)  
 
@@ -413,10 +413,11 @@ The motor which drives the belt is positioned at the back of the printer.
 ![Y-axis motor](../assets/images/y-axis_motor_web.jpg)
 
 You can adjust the tension of the belt by using the knob at the front side of the aluminum profile where the bed is guided onto.   
-The x-shaped plate for the bedmount itself has v-slot wheels which are running in the v-slot of the aluminum profile.  
-The following picture shows the aluminum profile of the y-axis with the knob for adjusting the belt tension at the front.   
+
+![Y-axis knob](../assets/images/axes_K2Neo_Y-belt-tensioner_web.jpg)
+
+The plate for the bedmount itself has v-slot wheels which are running in the v-slots of the aluminum profile.  
   
-![Y-axis knob](../assets/images/y-axis_knob_web.jpg)
   
 ---
 
