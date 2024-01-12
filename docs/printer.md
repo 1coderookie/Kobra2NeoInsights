@@ -13,7 +13,7 @@ The following pictures show the machine.
   
 | Kobra 2 Neo frontview | Kobra 2 Neo backview |  
 |:---------------------:|:--------------------:| 
-| ![Kobra 2 Neo front](assets/images/printer_K2Pro_front2_web.jpg) |  ![Kobra 2 Neo back](assets/images/printer_K2Pro_back_web.jpg) |  
+| ![Kobra 2 Neo front](assets/images/K2Neo_printer_front_web.jpg) |  ![Kobra 2 Neo back](assets/images/K2Neo_printer_back_web.jpg) |  
 
 *Note: I didn't attach the filament spool holder to the left side of the machine as it should be done when taking these pictures for being able to put both pictures between each other in a decent size here.*   
 
@@ -49,6 +49,7 @@ The following list gives an overview of the most important specifications:
 ## Box Content
 
 The printer comes partially preassembled and well packed in one big box.  
+As I don't have a picture of the Kobra 2 Neo how it arrives in the box, I'll show you a picture of the Kobra 2 Pro instead as the content will be basically somewhat the same. 
 
 ![Box content](assets/images/K2Pro_package_web.jpg)  
   
