@@ -31,7 +31,7 @@
 
 The machine comes preassembled with basically two major frame parts (which consist of individual parts) which I'd call the base frame and the z-axis frame.  
 
-!!! warning "Don't Put It On The Side For Mounting"
+??? warning "Don't Put It On The Side For Mounting"
 
     I always see people putting the whole construction on the side, with the printer resting on the side of the baseframe and the according site of the z-frame (or, to be more precise, only certain parts of it touching the desk!). Then they insert the screws and tighten them up, turn the printer around on the other side and do the same there. But by doing so, you'll risk that the z-fame won't be mounted perpendicular to the baseframe.  
     
