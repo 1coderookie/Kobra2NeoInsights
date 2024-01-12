@@ -31,17 +31,6 @@
 
 The machine comes preassembled with basically two major frame parts (which consist of individual parts) which I'd call the base frame and the z-axis frame.  
 
-The following picture shows what I'd call the base frame.  
-
-![Base frame](../assets/images/frame_K2Pro_baseframe_web.jpg)   
-
-On there you mount the z-axis frame which is shown in the following pictures (frontside view / backside view).  
-
-![Z-axis frame](../assets/images/axes_K2Pro_z-frame-front_web.jpg)   
-
-![Z-axis frame](../assets/images/axes_K2Pro_z-frame-back_web.jpg)   
-
-
 !!! warning "Don't Put It On The Side For Mounting"
 
     I always see people putting the whole construction on the side, with the printer resting on the side of the baseframe and the according site of the z-frame (or, to be more precise, only certain parts of it touching the desk!). Then they insert the screws and tighten them up, turn the printer around on the other side and do the same there. But by doing so, you'll risk that the z-fame won't be mounted perpendicular to the baseframe.  
@@ -55,7 +44,7 @@ After mounting both parts together, you'll already have the printer standing in 
 
 | Kobra 2 Neo frontview | Kobra 2 Neo backview |  
 |:---------------------:|:--------------------:| 
-| ![Kobra 2 Neo front](../assets/images/printer_K2Pro_front2_web.jpg) |  ![Kobra 2 Neo back](../assets/images/printer_K2Pro_back_web.jpg) | 
+| ![Kobra 2 Neo front](../assets/images/K2Neo_printer_front_web.jpg) |  ![Kobra 2 Neo back](../assets/images/K2Neo_printer_back_web.jpg) | 
 
 
 
