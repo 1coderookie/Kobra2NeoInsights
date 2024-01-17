@@ -2,9 +2,10 @@
 
 # Klipper (MOD)  
 
-There are investigations by different users going on about flashing Klipper to the stock mainboard. First attempts were already successful.  
-However, as there are no 100% working config files available yet, I'm not posting anything about it here yet.  
-As soon as I'll come across working solutions, I'll list them here. So please bare with me, keep an eye on this chapter and come back another time.. ;)  
+There are investigations by different users going on about flashing Klipper to the stock mainboard. First attempts were already successful. You can find a discussion about this [here in the Klipper discourse group](https://klipper.discourse.group/t/getting-orange-pi-3-lts-klipper-working-with-anycubic-kobra-2-neo/11278).  
+
+However, as Klipper doesn't offer the function of creating a `klipper.bin` file with the necessary setting of a 36KB bootloader yet (at least not without some sort of 'hack' - a [PR](https://github.com/Klipper3d/klipper/pull/6449) has been opened), you need to get yourself the belonging bin file somewhere else (unless you want to experiment by yourself).  
+A [kind user](https://www.reddit.com/user/Mysterious_Cable6854/) posted a link to his files (`klipper.bin` as well as the `printer.cfg`) on reddit, so you might want to give that a try. This is the belonging thread: [Kobra 2 Neo running Klipper (with config and guide)](https://www.reddit.com/r/anycubic/comments/1987n78/kobra_2_neo_running_klipper_with_config_and_guide/)  
  
 
 
