@@ -1,10 +1,9 @@
 <link rel=”manifest” href=”docs/manifest.webmanifest”>
 
 # Introduction
-Anycubic decided to not make the Marlin-based source code files available yet.  
-Therefore it's not possible at this time to have a look at files like the `Configuration.h` and check specific settings or to get the according pin assignment out of it which one would neeed to create a specific `printer.cfg`for a Klipper installation.   
-So at this time I can't provide any insights about specific Marlin settings or about how to install Klipper on these machines.  
-Once there were successful attempts of installing [Klipper](fw_klipper.md), you can find the information I then hopefully came across in the specific section.  
+Here you'll find further information about the [stock firmware](fw_marlin.md) - like how to install updates, information about specific settings and known restrictions.  
+  
+However, you might want to give [Klipper](fw_klipper.md) a try though, as it offers additional features like Pressure Advance and Input Shaping and offers much more possibilities to customize your firmware settings.  
  
 
 ---
