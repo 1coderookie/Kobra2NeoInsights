@@ -5,7 +5,7 @@
 Can you run [Klipper](https://www.klipper3d.org/) on the stock mainboard of the Kobra 2 Neo?  
 Oh yes, you can!  
 
-The GigaDevice "GD32F303" being used on the stock mainboard is supported by the Klipper firmware. However, as Klipper doesn't offer the function of creating a `klipper.bin` file with the necessary setting of a 36KB bootloader yet (at least not without some sort of 'hack' - a [PR](https://github.com/Klipper3d/klipper/pull/6449) has been opened), you need to get yourself the belonging bin file somewhere else (unless you want to experiment by yourself) - see the notes in the section ["Installation"](#installation) further down below.     
+The GigaDevice "GD32F303" being used on the stock mainboard is supported by the Klipper firmware. However, as Klipper doesn't offer the function of creating a `klipper.bin` file with the necessary setting of a 36KB bootloader yet (at least not without some sort of 'hack', an according [PR](https://github.com/Klipper3d/klipper/pull/6449) has been opened), you need to get yourself the belonging bin file somewhere else (unless you want to experiment by yourself) - see the notes in the section ["Installation"](#installation) further down below.     
   
 ??? tip "Important Information To Be Aware Of" 
 
