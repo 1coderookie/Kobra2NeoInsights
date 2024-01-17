@@ -19,9 +19,6 @@ The GigaDevice "GD32F303" being used on the stock mainboard is supported by the 
 
     Long story short: Klipper is an 'alternative' firmware which gives you way more possibilities and even functions for configuring and using your 3D printer. If you don't know what Klipper is, this may be a good start for your research: [All3DP: Klipper](https://www.all3dp.com/topic/klipper)  
 
-??? info "Discussion Thread About Klipper"
-
-    I opened a [discussion thread about Klipper](https://github.com/1coderookie/KobraGoNeoInsights/discussions/6) just in case any further questions arise or in case you want to comment on certain things without doing so by sending me an email. Keep in mind though that I'm not an expert at all, so if you do have specific questions about Klipper, please refer to the [official documentation of Klipper](https://www.klipper3d.org/Overview.html), the [Klipper discourse group](https://klipper.discourse.group/) and/or ask in a special forum like e.g. the [Klipper subreddit](https://www.reddit.com/r/klippers/).  
 
 ---
   
