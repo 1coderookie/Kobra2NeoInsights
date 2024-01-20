@@ -1,9 +1,7 @@
 <link rel=”manifest” href=”docs/manifest.webmanifest”>
 
 # Printhead
-
-***ATTENTION:***
-***This chapter is still WIP, most of it is currently written for the Kobra 2 Pro which isn't the same! The imho 'most important part' which is the hotend section does fit the Kobra 2 Neo already though.*** 
+ 
 
 | Specifications |
 |:---------------|
