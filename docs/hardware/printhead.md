@@ -2,9 +2,12 @@
 
 # Printhead
 
+***ATTENTION:***
+***This chapter is still WIP, most of it is currently written for the Kobra 2 Pro which isn't the same! The imho 'most important part' which is the hotend section does fit the Kobra 2 Neo already though.*** 
+
 | Specifications |
 |:---------------|
-| **Feeder system**: Direct drive, dual gear, 4:1 ratio |
+| **Feeder system**: Direct drive, single gear, 4:1(?) ratio |
 | **Thermistor**: 24V, 100k NTC "EPCOS 100K B57560G104F" type, capsuled, dimensions 3x5.5mm, two pinned JST PH 2.0 (?) connector |
 | **Heater Cartridge**: 24V, 60W, ~10.5 Ohm, dimensions 6x18.5mm, two pinned Molex Micro-Fit 3.0 (item-no. 43645-0200) connector |
 | **Nozzle**: proprietary Volcano-like nozzle (*not* compatible with Volcano!), 0.4mm |
@@ -18,15 +21,18 @@
 
 ---
 
-The printhead of the **Kobra 2 Pro** includes the direct drive feeder gear system, the distribution board for connecting the electronic components, the hotend, the heatsink and part cooling fans, the ABL sensor and the motion sensor for measuring the vibrances.   
+The printhead of the **Kobra 2 Neo** includes the direct drive feeder gear system, the distribution board for connecting the electronic components, the hotend, the heatsink and part cooling fans and the ABL sensor.   
 
 The following pictures show the printhead with the blue plastic cover from various angles.  
 
 | Front side | Back side | Top side | Bottom side |
 |:----------:|:---------:|:--------:|:-----------:|
-| ![Printhead front](../assets/images/head_K2Pro_head-front_web.jpg) | ![Printhead back](../assets/images/head_K2Pro_backside_web.jpg) | ![Printhead top](../assets/images/head_K2Pro_topside_web.jpg) | ![Printhead bottom](../assets/images/head_K2Pro_underside_web.jpg) |  
+| ![Printhead front](../assets/images/head_K2Neo_head-front_web.jpg) | ![Printhead back](../assets/images/head_K2Neo_backside_web.jpg) | ![Printhead top](../assets/images/head_K2Neo_topside_web.jpg) | ![Printhead bottom](../assets/images/head_K2Neo_underside_web.jpg) |  
 
-It is the same as the one being used at the *Kobra 2 Plus* and *Kobra 2 Max* - it is *not* the same as the one being used in the regular *Kobra 2* and the *Kobra 2 Neo* though.  
+!!! warning  
+
+    It is **not** the same printhead as the one being used at the *Kobra 2 Pro, Plus and Max*. So you can **not** get yourself a printhead of these models and use it at the Kobra 2 Neo!  
+    It is 'pretty much' the same as the one being used in the regular *Kobra 2* though. The (main) difference here seems to be the extruder, where the one at the Kobra 2 Neo is single-geared and the one at the Kobra 2 is a dual gear. Besides that, it seems that it's compatible and therefore one could get a printhead of the Kobra 2 and use it at the Kobra 2 Neo. However, I wasn't able to compare both heads 1:1 exactly and e.g. measure the pinouts of the PCB - but as they're labeled the same, I *assume* it's compatible. 
 
 --- 
 
@@ -36,11 +42,11 @@ The printhead itself is mounted to a metal plate which is running along the [x-a
 
 | Mounting plate front side | Mounting plate back side |  
 |:------------------------:|:-----------------------:|
-| ![Plate front side](../assets/images/head_K2Pro_mounting-plate-frontside_web.jpg) | ![Plate back side](../assets/images/head_K2Pro_mounting-plate-backside_web.jpg) |  
+| ![Plate front side](../assets/images/head_K2Neo_mounting-plate-frontside_web.jpg) | ![Plate back side](../assets/images/head_K2Neo_mounting-plate-backside_web.jpg) |  
 
 The following picture shows the four screws which are being used to mount the printhead onto the plate.  
 
-![Mounting screws](../assets/images/head_K2Pro_head-back_mounting-screws-marked_web.jpg)  
+![Mounting screws](../assets/images/head_K2Neo_head-back_mounting-screws-marked_web.jpg)  
 
 ---
 
@@ -61,16 +67,16 @@ Disassembling the printhead isn't really complicated. Just make sure you're care
 Whatever you want to do, like if you want to change the hotend, the heater block, the heatbreak, a fan or even want to disassemble the whole feeder system, you have to remove the plastic cover of the printhead first.  
 It's secured by two hexagon socket screws at the top of the metal back plate and a plastic clip at each side at the lower bottom as you can see at the following picture (well, you don't really see the plastic clip though but you can see the belonging notch of one of them). Be gentle and careful to not break one of the clips - the best way to get them out of their fittings is to gently push together the whole plastic cover at the bottom sides.  
   
-![Backside view of the head with mounted plastic cover](../assets/images/head_K2Pro_backside_web.jpg)  
+![Backside view of the head with mounted plastic cover](../assets/images/head_K2Neo_backside_web.jpg)  
   
 Inside of the plastic housing, you can see the part cooling fan with the fan duct.  
 *Mind the thin wire of the fan - you don't want to rip it off!* 
 
-![Fan parts](../assets/images/head_K2Pro_cover-open_web.jpg)  
+![Fan parts](../assets/images/head_K2Neo_cover-open_web.jpg)  
 
 After the plastic cover is gone, you're looking at the plastic backplate of the feeder gear. Underneath it, you can see the the black heatsink with the hotend in the middle and the proximity sensor at the right side of the hotend.  
   
-![Front side view](../assets/images/head_K2Pro_no-cover_web.jpg)  
+![Front side view](../assets/images/head_K2Neo_no-cover_web.jpg)  
 
 <!--  
 Now we look at the left side where you can see the motor of the feeder gear. You can spot three hexagon socket screws there - two at the top and one at the bottom close to the motor housing, which are holding the entire feeder system onto the metal backplate.    
@@ -100,13 +106,14 @@ The following picture shows the whole metal plate where the feeder construction 
 There's a PCB located at the printhead where the electronic components (e.g. thermistor, cartridge heater, ABL sensor etc.) are connected to which I call (for the sake of simplicity) "breakout board".    
 The more 'formal' name for this is "Hot End Nozzle Adapter Board Breakout Module" - so I'll stick with "breakout board".. ;)
 
-![Breakout board](../assets/images/head_K2Pro_distri-pcb_labeled_web.jpg)  
+![Breakout board](../assets/images/head_K2Neo_distri-pcb_labeled_web.jpg)  
 
 The following picture shows this breakout board from a slightly different angles, so that you can see the labels at the wires and the plugs and connectors a bit better.  
 
-![Breakout board sideview](../assets/images/head_K2Pro_distri-pcb_labels_web.jpg)  
+![Breakout board sideview](../assets/images/head_K2Neo_distri-pcb_labels_web.jpg)  
 
 The connection between the mainboard and this breakout board is then accomplished by a ribbon cable. The following picture shows the connector at the head and a part of that ribbon cable.  
+**As all connectors, this connector is coded - means, it only fits in ONE specific direction! Make sure to mind those 'noses' and notches and to plug it in correctly!**
 
 ![Ribbon cable](../assets/images/head_K2Pro_ribbon-cable-connector_web.jpg)  
 
@@ -146,7 +153,7 @@ The procedure about how to adjust the position will be described for the specifi
 
 The following picture shows the location of the ABL sensor at the printhead, looking at it from a bottom view angle - the ABL sensor is the part at the right side with the round orange tip.   
   
-![Orange tip of the ABL sensor at the right side](../assets/images/head_K2Pro_underside_web.jpg)
+![Orange tip of the ABL sensor at the right side](../assets/images/head_K2Neo_underside_web.jpg)
     
 The ABL sensor itself is mounted in a plastic bracket which is then mounted to the metal backplate.  
   
@@ -1190,11 +1197,11 @@ If you need to change the nozzle, mind the warnings from above and check out the
 
 ## Part Cooling Fan  
 
-The part cooling fan is a 24V, 0.14A, 50x50x20mm blower, model "Coolcox BF5020H24D".  
+The part cooling fan is a 24V, 0.14A, 50x50x20mm blower, model "Coolcox BF5020H24S".  
 
 According to the [specifications of the manufacturer](https://www.coolcox.com/products/pdf/BF5020_a.pdf), the bearing type of this fan is a 2-ball bearing. The current is listed as 0.08A, even though the label at the fan itself states 0.14A. The fanspeed is listed with 5000rpm, Anycubic states at the product page 7000rpm though. The air flow is listed with 6.0 CFM and the noise level is listed with 34.0 dBA.  
 
-![Coolcox BF5020H24D front](../assets/images/head_K2Pro_part-cooling-fan_web.jpg)  
+![Coolcox BF5020H24D front](../assets/images/head_K2Neo_part-cooling-fan_web.jpg)  
 
 
 ---
@@ -1203,7 +1210,7 @@ According to the [specifications of the manufacturer](https://www.coolcox.com/pr
 
 The fan duct for the 5020 part cooling blower fan has two outlets at the sides as the following picture shows.  
 
-![Part cooling fan duct](../assets/images/head_K2Pro_part-cooling-fanduct_mounted_backside_web.jpg)  
+![Part cooling fan duct](../assets/images/head_K2Neo_part-cooling-fanduct_mounted_backside_web.jpg)  
 
 Mind the additional opening at the left handed side in the picture - it seems to be there for cooling the ABL sensor. I don't know yet if this additional opening results in a lack of part cooling at that specific side.   
 
