@@ -6,7 +6,7 @@
 |:---------------|
 | **Bedplate**: 230x230mm, 3mm thick aluminum plate with PCB heating coil |
 | **Magnetic Foil**: 230x230mm |
-| **PEI Plate**: 230x230mm, spring steel, textured on one side |
+| **PEI Plate**: 230x230mm, spring steel, textured on both sides |
 | **Thermistor**: 24V, 100k NTC "ATC Semitec 104GT-2" type, AWG22 wire, two pinned JST XH 2.54 connector |
 | **PCB Heating Coil**: 24V, ~180W, ~3.2Ohm resistance, AWG14 wire |
 | **Bedmount**: 7x14mm rigid spacers/bushings, 4x22mm countersunk head screws |
