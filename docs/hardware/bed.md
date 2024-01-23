@@ -71,9 +71,6 @@ The following pictures show the underside view of these parts.
   
 ![Soldered connections](../assets/images/bed_K2Pro_bedplate-connectors_web.jpg)  
 
-Here you can also see the acceleration sensor, the following picture shows it in a closeup view.  
-
-![Closeup connector](../assets/images/bed_K2Pro_bedplate-connector-closeup_web.jpg)  
   
 When you take a look underneath the bed itself, you'll spot a little foam piece secured by Kapton tape as you can see in the following picture.  
   
