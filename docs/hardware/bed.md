@@ -328,19 +328,6 @@ If rests of filament are stuck on it after the nozzle has been wiped, take them 
 
 ---
 
-## ADXL Acceleration Sensor
-There's an ADXL acceleration sensor for measuring the vibrances installed at the rear side of the bed's underside, right where the z-offset sensor is located.   
-
-The following pictures show the underside view of the belonging area of the bed's underside.    
-  
-![Soldered connections](../assets/images/bed_K2Pro_bedplate-connectors_web.jpg)  
-
-The following picture shows the acceleration sensor and it's connector in a closeup view.  
-
-![Closeup connector](../assets/images/bed_K2Pro_bedplate-connector-closeup_web.jpg)  
-
----
-
 ## Spacers / Bushings Of The Bedmount
 
 The bedplate is mounted onto the gantry with 4mm countersunk screws and rigid metal spacers between the bedplate itself and the gantry.  
