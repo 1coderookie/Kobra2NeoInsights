@@ -23,7 +23,7 @@ The following pictures show the bedplate (without the PEI plate) from the top an
 
 | Bedplate topside | Bedplate underside |
 |:----------------:|:------------------:|
-| ![Bedplate top](../assets/images/bed_K2Pro_bedplate-labeled_web.jpg) | ![Bedplate underside](../assets/images/bed_K2Pro_bedplate-underside_web.jpg) |
+| ![Bedplate top](../assets/images/bed_K2Pro_bedplate-labeled_web.jpg) | ![Bedplate underside](../assets/images/bed_K2Neo_underside_web.jpg) |
 
 The build volume is 220x220mm.  
 Anycubic states in the official specs that the *size* is 220x220mm as well - which is definitely wrong and misleading though, as the *physical* dimension of the bed is 230x230mm.  
