@@ -221,7 +221,7 @@ The sensor itself is a round, spring loaded metallic piece of 10mm diameter. It'
 
 In the following picture you can see the two pin connector with the red and white wires which connect the z-offset sensor to the mainboard.  
 
-![Soldered connections](../assets/images/bed_K2Pro_bedplate-connectors_web.jpg)  
+![Soldered connections](../assets/images/bed_K2Neo_underside-connectors_web.jpg)  
 
 ---
 
