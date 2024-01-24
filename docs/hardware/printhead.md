@@ -1038,7 +1038,14 @@ Anycubic ships the printheads with a *proprietary* Volcano-like brass nozzle (0.
 !!! warning "Incompatible With True Volcano Nozzles"  
 
     The stock nozzle and heatbreak Anycubic is using is NOT comaptible with true Volcano-style nozzles. So if you want to use regular Volcano nozzles, you also HAVE to swap out the stock heatbreak and get yourself a different one!   
-    
+
+??? warning "Nozzles: Handle With Care!" 
+
+    - *Be careful to NOT touch and harm the wires and contacts of the thermistor and the heating cartridge with at brass brush or the wrench!* <br> You may either harm the insulation, break the wire or even cause a shortcut which can result in a broken mainboard once you powered the printer up again. 
+    - If you want to change the nozzle (*check out the expandable admonition below!*) and need to grab the heater block with a wrench, make sure you really just grab the heater block and never get any wires up in between - preferably grab the heater block from that sides where the wires don't come out.   
+    - If you want to clean the nozzle using a brass brush for example, *never* do it when the printer is powered up and the heating process of the extruder is in progress to avoid causing a shortcut by touching the contacs with the brush.  
+    - *Make sure you DON'T turn the heater block!* In case you want to change the nozzle, you don't want to loosen the heater block from the hotend, so just hold the heater block in place without turning it.     
+    - *Don't do cold pulls for cleaning a nozzle when using any kind of coated nozzles!* This also involves hardened steel nozzles! Referring to the manufacturers, the coating might be harmed when doing so.     
     
 ??? info "About Nozzles In General" 
 
