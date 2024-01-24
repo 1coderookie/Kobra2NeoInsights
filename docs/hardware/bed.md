@@ -60,7 +60,7 @@ The surface is covered with a protective foil, which you have to pull off before
 
 The heating coil is applied as a PCB to the underside of it as you can see in the following picture.  
 
-![Bedplate underside](../assets/images/bed_K2Pro_bedplate-underside_web.jpg)  
+![Bedplate underside](../assets/images/bed_K2Neo_underside_web.jpg)  
    
 At the left rear side of the bedplate you'll notice a black plastic cap which sticks out. Be careful to never break it by accident as it acts as a strain relief and protects the wires which are soldered to the contacts of the board at the bottom side.  
 Next to that cap the z-offset sensor and the silicone block for wiping the nozzle before probing the bed's surface are located as shown in the following picture.  
@@ -69,7 +69,7 @@ Next to that cap the z-offset sensor and the silicone block for wiping the nozzl
 
 The following pictures show the underside view of these parts.  
   
-![Soldered connections](../assets/images/bed_K2Pro_bedplate-connectors_web.jpg)  
+![Soldered connections](../assets/images/bed_K2Neo_underside-connectors_web.jpg)  
 
   
 When you take a look underneath the bed itself, you'll spot a little foam piece secured by Kapton tape as you can see in the following picture.  
@@ -405,17 +405,10 @@ Keep in mind that the silicone spacers (I used 18mm long ones shown below) compr
 
 The bedplate itself is mounted to the bed gantry which runs along the y-axis shown in the following picture.  
 
-![Bed gantry](../assets/images/bed_gantry_web.jpg)
+![Bed gantry](../assets/images/bed_K2Neo_gantry_web.jpg)
 
-The v-slot wheels that run along the aluminum y-axis frame are mounted to the underside as the following picture shows.  
-
-![Bed gantry underside](../assets/images/bed_gantry-bare_web.jpg)  
-
-The gantry is made of 2.5mm steel - which unfortunately seems to be pretty flimsy to me. If I touch one of those arms of that X-shaped gantry and apply pressure with a finger, I can easily make it wiggle up and down a bit.  
+The v-slot wheels that run along the aluminum y-axis frame are mounted to the underside, the belt is also attached to the gantry. 
 The screws that hold the bedplate are screwed into 4mm threads of the gantry.   
-
-As you can see in the picture above, also the v-slot wheels which are running along the y-axis are mounted onto that plate.  
-The belt is also attached to the gantry.  
 The y-axis limit switch is being triggered by the gantry when it's moving completely to the back.  
   
 !!! warning "Important: Check The Screws Of The Bedplate And The Gantry Of The Bed"
