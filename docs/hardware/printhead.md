@@ -1227,7 +1227,7 @@ If you need to change the nozzle, mind the warnings from above and check out the
 
 The part cooling fan is a 24V, 0.2A, 50x50x20mm blower, model "Coolcox BF5020H24S".  
 
-According to the [specifications of the manufacturer](https://www.coolcox.com/products/pdf/BF5020_a.pdf), the bearing type of this fan is a 2-ball bearing. The current is listed as 0.08A, even though the label at the fan itself states 0.14A. The fanspeed is listed with 5000rpm, Anycubic states at the product page 7000rpm though. The air flow is listed with 6.0 CFM and the noise level is listed with 34.0 dBA.  
+According to the [specifications of the manufacturer](https://www.coolcox.com/products/pdf/BF5020_a.pdf), the bearing type of this fan is a sleeve bearing. The current is listed as 0.08A, even though the label at the fan itself states 0.2A. The fanspeed is listed with 5000rpm, the air flow is listed with 6.0 CFM and the noise level is listed with 34.0 dBA.  
 
 ![Coolcox BF5020H24S front](../assets/images/head_K2_part-cooling-fan_web.jpg)  
 
