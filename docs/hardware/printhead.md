@@ -38,9 +38,11 @@ The following pictures show the printhead with the blue plastic cover from vario
 
 The printhead itself is mounted to a metal plate which is running along the [x-axis gantry](axes.md#x-axis-gantry).  
 
+<!--
 | Mounting plate front side | Mounting plate back side |  
 |:------------------------:|:-----------------------:|
 | ![Plate front side](../assets/images/head_K2Neo_mounting-plate-frontside_web.jpg) | ![Plate back side](../assets/images/head_K2Neo_mounting-plate-backside_web.jpg) |  
+-->  
 
 The following picture shows the four screws which are being used to mount the printhead onto the plate.  
 
@@ -150,7 +152,7 @@ The procedure about how to adjust the position will be described for the specifi
 
 The following picture shows the location of the ABL sensor at the printhead, looking at it from a bottom view angle - the ABL sensor is the part at the right side with the round orange tip.   
   
-![Orange tip of the ABL sensor at the right side](../assets/images/head_K2Neo_underside_web.jpg)
+![Orange tip of the ABL sensor at the right side](../assets/images/head_K2_bottomview_web.jpg)
     
 The ABL sensor itself is mounted in a plastic bracket which is then mounted to the metal backplate.  
   
