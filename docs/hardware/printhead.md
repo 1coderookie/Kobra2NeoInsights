@@ -13,7 +13,7 @@
 | **Heatbreak**: M6 thread (to fit in the heater block), overall length 25/26(?)mm, 6mm OD / 4mm ID, PTFE tube inliner |  
 | **PTFE tube**: <br> **Hotend**: ~41mm inliner for the heatbreak, ~4mm OD / ~2mm ID bore <br> **Reverse bowden tube** (between filament runout sensor and printhead): ~???mm <br> *Both PTFE tubes can/should be replaced with a "Capricorn XS" tube (for 1.75mm filament).* |  
 | **Silicone Sock**: Volcano-style type |
-| **Part Cooling Fan**: 24V, 0.14A, 50x50x20mm, model "Coolcox BF5020H24D"  |
+| **Part Cooling Fan**: 24V, 0.2A, 50x50x20mm, model "Coolcox BF5020H24D"  |
 | **Heatsink Cooling Fan**: 24V, 0.08A, 30x30x10mm, model "HSC BCY3010D24H"  |
 | **ABL sensor**: PNP-NO type (imho!), connection: brown = VCC 24VDC; blue = GND; black = LEVEL/signal (seems to be the same as the one being used at the 'old' regular Kobra) |  
 
@@ -63,18 +63,15 @@ Disassembling the printhead isn't really complicated. Just make sure you're care
     - *Don't harm or rip off any wires* as it may cause severe damage to your mainboard or might be complicated to fix later on.   
     
 Whatever you want to do, like if you want to change the hotend, the heater block, the heatbreak, a fan or even want to disassemble the whole feeder system, you have to remove the plastic cover of the printhead first.  
-It's secured by two hexagon socket screws at the top of the metal back plate and a plastic clip at each side at the lower bottom as you can see at the following picture (well, you don't really see the plastic clip though but you can see the belonging notch of one of them). Be gentle and careful to not break one of the clips - the best way to get them out of their fittings is to gently push together the whole plastic cover at the bottom sides.  
-  
-![Backside view of the head with mounted plastic cover](../assets/images/head_K2Neo_backside_web.jpg)  
-  
-Inside of the plastic housing, you can see the part cooling fan with the fan duct.  
-*Mind the thin wire of the fan - you don't want to rip it off!* 
+It's secured by two hexagon socket screws at the top of the metal back plate and a plastic clip at each side at the lower bottom. Be gentle and careful to not break one of the clips.  
 
-![Fan parts](../assets/images/head_K2Neo_cover-open_web.jpg)  
+*Once you can take off that cover, be very careful when doing so as the part cooling fan is mounted to it while being connected with two thin wires to the breakout board at the printhead- you don't want to rip off these wires!*
+  
+![Head with open cover](../assets/images/head_K2_open-cover_web.jpg)  
 
 After the plastic cover is gone, you're looking at the plastic backplate of the feeder gear. Underneath it, you can see the the black heatsink with the hotend in the middle and the proximity sensor at the right side of the hotend.  
   
-![Front side view](../assets/images/head_K2Neo_no-cover_web.jpg)  
+![Front side view](../assets/images/head_K2Pro_no-cover_web.jpg)  
 
 <!--  
 Now we look at the left side where you can see the motor of the feeder gear. You can spot three hexagon socket screws there - two at the top and one at the bottom close to the motor housing, which are holding the entire feeder system onto the metal backplate.    
@@ -1226,11 +1223,11 @@ If you need to change the nozzle, mind the warnings from above and check out the
 
 ## Part Cooling Fan  
 
-The part cooling fan is a 24V, 0.14A, 50x50x20mm blower, model "Coolcox BF5020H24S".  
+The part cooling fan is a 24V, 0.2A, 50x50x20mm blower, model "Coolcox BF5020H24S".  
 
 According to the [specifications of the manufacturer](https://www.coolcox.com/products/pdf/BF5020_a.pdf), the bearing type of this fan is a 2-ball bearing. The current is listed as 0.08A, even though the label at the fan itself states 0.14A. The fanspeed is listed with 5000rpm, Anycubic states at the product page 7000rpm though. The air flow is listed with 6.0 CFM and the noise level is listed with 34.0 dBA.  
 
-![Coolcox BF5020H24D front](../assets/images/head_K2Neo_part-cooling-fan_web.jpg)  
+![Coolcox BF5020H24S front](../assets/images/head_K2_part-cooling-fan_web.jpg)  
 
 <!---
 
@@ -1278,7 +1275,7 @@ Just as an example so that you get the idea and the concept, I'll list some valu
 
 The fan duct for the 5020 part cooling blower fan has two outlets at the sides as the following picture shows.  
 
-![Part cooling fan duct](../assets/images/head_K2Neo_part-cooling-fanduct_mounted_backside_web.jpg)  
+![Part cooling fan duct](../assets/images/head_K2_part-cooling-fanduct_web.jpg)  
 
 Mind the additional opening at the left handed side in the picture - it seems to be there for cooling the ABL sensor. I don't know yet if this additional opening results in a lack of part cooling at that specific side.   
 
