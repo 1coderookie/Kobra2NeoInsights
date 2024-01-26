@@ -104,11 +104,11 @@ The following picture shows the whole metal plate where the feeder construction 
 There's a PCB located at the printhead where the electronic components (e.g. thermistor, cartridge heater, ABL sensor etc.) are connected to which I call (for the sake of simplicity) "breakout board".    
 The more 'formal' name for this is "Hot End Nozzle Adapter Board Breakout Module" - so I'll stick with "breakout board".. ;)  
 
-The following picture shows the breakout board with the extruder motor how you see it when removing the plastic housing of the printhead.  
+The following picture shows the breakout board (with the extruder motor at the left hand side) how you see it when removing the plastic housing of the printhead.  
 
 ![Breakout board and motor](../assets/images/head_K2_distri-pcb_sideview_web.jpg)  
 
-The following picture shows the breakout board only with additional labels for the specific connectors.  
+The following picture shows the breakout board only, with additional labels for the specific connectors.  
 
 ![Breakout board labeled](../assets/images/head_K2Neo_distri-pcb_web.jpg)  
 
