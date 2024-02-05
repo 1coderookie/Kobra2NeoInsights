@@ -6,11 +6,11 @@
 |:---------------|
 | Switch: NO (normally open) |
 | Voltage: 24V DC |
-| Connector: JST-XH 2.54 (male, 3 pin connector but only 2 pins given, labeled as "E") |  
+| Connector: JST-XH 2.54 (3 pin connector but only 2 contacts are wired up, labeled as "E") |  
 
 
 The optional filament runout / break detection sensor is basically a switch inside a housing, which will be triggered and closes the contact when filament is fed through.  
-The switch is NO (normally open) and the connector for plugging it into the mainboard's connector is a JST-XH2.54 (male, 3 pin connector but only 2 pins given), labeled as "E".  
+The switch is NO (normally open) and has a three pin connector - the corresponding plug is a JST-XH2.54 (3 pin connector but only 2 contacts are wired up), the wire is labeled as "E".  
 
 | Sensor's top side (mounting direction) | Sensor's bottom side | Sensor's plug |
 |:--------------:|:-------------:|:-------------:|
@@ -27,7 +27,7 @@ The arrow printed on the sensor's housing should point towards the bed, the plug
 
 ![Sensor mounted](../assets/images/fil-sens_K2Pro_installed_web.jpg)
 
-After you mounted it, connect it with the belonging wire - the three pin connector with only two pins being wired up is labeled as "E".  
+After you mounted it, connect it with the belonging wire (the three pin connector with only two pins being wired up) which is labeled as "E".  
 You then lead the filament through it which then moves the little lever inside of the switch to trigger it and the electrical circuit will be closed. If the filament runs out because it broke or the spool is empty, the switch will open and the printer will pause (-> Or only shows a warning message? I don't know yet!).  
 
 
