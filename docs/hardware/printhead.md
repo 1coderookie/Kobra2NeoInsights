@@ -38,15 +38,15 @@ The following pictures show the printhead with the blue plastic cover from vario
 
 The printhead itself is mounted to a metal plate which is running along the [x-axis gantry](axes.md#x-axis-gantry).  
 
-
+<!--
 | Mounting plate front side | Mounting plate back side |  
 |:------------------------:|:-----------------------:|
 | ![Plate front side](../assets/images/head_K2Neo_mounting-plate-frontside_web.jpg) | ![Plate back side](../assets/images/head_K2Neo_mounting-plate-backside_web.jpg) |  
+-->
 
+The following picture shows the plate from the backside with the head being mounted, the four mounting screws are marked with a green circle.  
 
-The following picture shows the four screws which are being used to mount the printhead onto the plate.  
-
-![Mounting screws](../assets/images/head_K2Neo_head-back_mounting-screws-marked_web.jpg)  
+![Mounting screws](../assets/images/head_K2Neo_mountingplate-marked_web.jpg)  
 
 ---
 
