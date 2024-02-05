@@ -30,7 +30,8 @@ The following pictures show the printhead with the blue plastic cover from vario
 !!! warning  
 
     It is **not** the same printhead as the one being used at the *Kobra 2 Pro, Plus and Max*. So you can **not** get yourself a printhead of these models and use it at the Kobra 2 Neo!  
-    It is 'pretty much' the same as the one being used in the regular *Kobra 2* though. The (main) difference here seems to be the extruder, where the one at the Kobra 2 Neo is single-geared and the one at the Kobra 2 is a dual gear. Besides that, it seems that it's compatible and therefore one could get a printhead of the Kobra 2 and use it at the Kobra 2 Neo. However, I wasn't able to compare both heads 1:1 exactly and e.g. measure the pinouts of the PCB - but as they're labeled the same, I *assume* it's compatible. 
+    It is 'pretty much' the same as the one being used in the regular *Kobra 2* though. The (only) difference (I'm aware of) seems to be the extruder, where the one at the Kobra 2 Neo is single-geared and the one at the Kobra 2 is a dual gear. Besides that, it seems that it's compatible and therefore one could get a printhead of the Kobra 2 and use it at the Kobra 2 Neo.  
+    However, I wasn't able to compare both heads 1:1 exactly and e.g. measure the pinouts of the PCB - but as they're labeled the same, I *assume* it's compatible. 
 
 --- 
 
