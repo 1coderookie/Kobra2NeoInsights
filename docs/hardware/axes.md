@@ -621,7 +621,7 @@ The limit switch for the y-axis is mounted at the back, right on front of the mo
 ---
 
 ## Z-Axis
-The z-axis of both the **Go** and the **Neo** is driven by a single lead screw.  
+The z-axis is driven by a single lead screw.  
 The lead screw has 8mm in diameter with 8mm lead ('distance' of one complete rotation), 2mm pitch and 4 starts and has a length of 350mm (it's actually the kind of lead screw which is used pretty much everywhere in these kind of machines).  
 This rod is mounted to the 5mm shaft of the motor by a rigid coupler at the bottom.  
 The top end of the rod is completely unguided. In between it's guided and secured by a spring loaded POM anti-backlash nut which you can see at the following picture -  it's the black plastic part mounted to the black steel bracket.  
@@ -676,7 +676,7 @@ The top end of the rod is completely unguided. In between it's guided and secure
 
 ### Lead Screw 
 
-The printers have one lead screw only. It's a T8x8 type (8mm diameter, 8mm lead, 2mm pitch, 4 starts) of 350mm length.   
+The printer has one lead screw only. It's a T8x8 type (8mm diameter, 8mm lead, 2mm pitch, 4 starts) of 350mm length.   
 
 ---
 
