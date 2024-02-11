@@ -16,7 +16,7 @@
 
 ---
 
-Both the **Go** and the **Neo** are so called 'bed slingers'. Means, the bed moves along the y-axis (back and forth).  
+The **Kobra 2 Neo** is a so called 'bed slinger'. Means, the bed moves along the y-axis (back and forth).  
 The printhead moves along the x-axis (left and right) and is attached to the x-axis gantry.  
 The x-axis gantry moves along the z-axis (up and down).  
 
@@ -40,7 +40,7 @@ So if you notice that e.g. the motor of the y-axis doesn't stop when the bed rea
 ---
 
 ## X-Axis
-The x-axis of both the **Go** and the **Neo** is represented by the printhead moving along the x-axis gantry. The moving bracket (where the printed is mounted onto) is belt driven, the motor which drives the belt (6mm wide, GT-2 type) is located at the left side.   
+The x-axis is represented by the printhead moving along the x-axis gantry. The moving bracket (where the printed is mounted onto) is belt driven, the motor which drives the belt (6mm wide, GT-2 type) is located at the left side.   
 You can adjust the tension of the belt by using the knob at the right side of the aluminum profile where the printhead is guided onto.  
   
 ![X-axis knob](../assets/images/axes_K2Neo_X-belt-tensioner_web.jpg)
