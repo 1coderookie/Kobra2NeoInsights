@@ -407,7 +407,7 @@ Please see the expandable textbox below for further instructions about how to tr
 ---
 
 ## Y-Axis
-The y-axis of both the **Go** and the **Neo** is belt driven (GT-2 type, 6mm wide).  
+The y-axis is belt driven (GT-2 type, 6mm wide).  
 The motor which drives the belt is positioned at the back of the printer.  
   
 ![Y-axis motor](../assets/images/y-axis_motor_web.jpg)
