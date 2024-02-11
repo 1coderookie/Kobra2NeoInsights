@@ -12,7 +12,7 @@
 | **V-Slot Wheels**: POM, ~24x10.2mm with 6mm width at the tip of the "V", 625 type ball bearing with 5mm inner diameter |
 | **X- & Y-Axis Motor**: 42x34 Nema17, 1.8°, 200 steps, 5mm shaft with 16 OD / 5mm ID / 20 teeth pulley attached (for 6mm wide belt) |
 | **Z-Axis Motor**: 42x34 Nema17, 1.8°, 200 steps, 5mm shaft |
-| **Limit Switches**: x- & y-axis = mechanical, NO ; z-axis = optical, NC |
+| **Limit Switches**: x- & y-axis = mechanical, NO ; z-axis = no physical switch given, probe acts as virtual endstop |
 
 ---
 
