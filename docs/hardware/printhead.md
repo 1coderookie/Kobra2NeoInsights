@@ -21,11 +21,23 @@
 
 The printhead of the **Kobra 2 Neo** includes the direct drive feeder gear system, the distribution board for connecting the electronic components, the hotend, the heatsink and part cooling fans and the ABL sensor.   
 
-The following pictures show the printhead with the blue plastic cover from various angles.  
+The following pictures show the printhead with the blue plastic cover from various angles. At the picture of the top you can clearly see the lever you have to push aside for loading filament as well as the PC-4 connector in the middle which takes the reverse bowden tube.   
 
-| Front side | Back side | Top side | Bottom side |
-|:----------:|:---------:|:--------:|:-----------:|
-| ![Printhead front](../assets/images/head_K2_web.jpg) | ![Printhead back](../assets/images/head_K2Neo_backside_web.jpg) | ![Printhead top](../assets/images/head_K2Neo_topside_web.jpg) | ![Printhead bottom](../assets/images/head_K2_bottomview_web.jpg) |  
+| Front side | Back side | Top view |
+|:----------:|:---------:|:--------:|
+| ![Printhead front](../assets/images/head_K2_web.jpg) | ![Printhead back](../assets/images/head_K2_back_web.jpg) | ![Printhead top](../assets/images/head_K2_topview_web.jpg) | 
+
+The following pictures show the left and right side of the printhead with the blue plastic cover. Mind the marking at the right side where the screw for adjusting the feeder gear tension is located.   
+
+| Left side | Right side | 
+|:----------:|:---------:|
+| ![Printhead left](../assets/images/head_K2_side-left_web.jpg) | ![Printhead right](../assets/images/head_K2_side-right_web.jpg) | 
+
+The following pictures show the head with the mounted cover from the underside view. At the second picture you can clearly see the outlets of the fanduct sticking out aand pointing to the left and right side of the hotend.  
+
+| Underside | Underside | 
+|:----------:|:---------:|
+| ![Printhead underside](../assets/images/head_K2_bottom_web.jpg) | ![Printhead underside](../assets/images/head_K2_bottomview_web.jpg) | 
 
 !!! warning  
 
