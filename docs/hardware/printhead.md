@@ -253,6 +253,7 @@ When you take off the blue plastic cover of the printhead, you can see the extru
 
 ![Feeder gearbox](../assets/images/head_K2_extruder-screws-marked_web.jpg)  
 
+Please see the next section if you have to disassemble the feeder gear.  
 
 ??? tip "Can't Load New Filament?!"
 
