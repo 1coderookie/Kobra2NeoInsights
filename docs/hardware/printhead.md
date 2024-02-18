@@ -145,6 +145,17 @@ The connection between the mainboard and this breakout board is then accomplishe
 The printer comes with an inductive proximity sensor for automatic bed leveling (ABL) which detects the metal of the spring steel PEI plate.  
 The ABL sensor is the part with that round orange tip whic is located at the right hand side when looking at the printhead from the front.  
 
+The following pictures show the location of the ABL sensor at the printhead. The ABL sensor is the part at the right side with the round orange tip.   
+  
+| ABL Sensor | ABL Sensor | 
+|:----------:|:---------:|
+| ![Sensor's location](../assets/images/head_K2_bottom_web.jpg) | ![Sensor's location](../assets/images/head_K2_bottomview_web.jpg) | 
+    
+The ABL sensor itself is mounted in a plastic bracket which is then mounted to the metal backplate.  
+  
+![ABL sensor](../assets/images/head_K2Pro_abl-sensor_web.jpg)
+
+
 The sensor itself seems to be the same as the one being used at the regular Kobra, so if you need a replacement and can't find it for this specific model, look out for the one of the Kobra as well.  
 In a German 3d forum someone measured the sensor of the regular Kobra and it gives +24VDC on the black signal wire when the LED lights up, so imho that's a PNP-NO type then (as the level is HIGH then).  
 The connections are:  
@@ -153,28 +164,14 @@ The connections are:
 - blue = GND
 - black = LEVEL/signal 
 
-<!--
+
 The position of the sensor (the height) should be adjusted in relation to the nozzle.  
-Therefore you can either use the ABL height gauge which sometimes comes with the printer or you can use the bigger one of the two-sided open ended wrench that comes in the toolset.  
-The following picture shows the height gauge that sometimes comes with the printer - if you don't have it and don't want to use the mentioned wrench, you can download [the gcode file](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Height_gauge.rar?v=1667814312) from Anycubic's support page and print it.  
-
-![ABL height gauge](../assets/images/abl-gauge_web.jpg)
-
-The procedure about how to adjust the position will be described for the specific printer model in the following sections as well. 
--->  
-
-The following picture shows the location of the ABL sensor at the printhead, looking at it from a bottom view angle - the ABL sensor is the part at the right side with the round orange tip.   
-  
-![Orange tip of the ABL sensor at the right side](../assets/images/head_K2_bottomview_web.jpg)
-    
-The ABL sensor itself is mounted in a plastic bracket which is then mounted to the metal backplate.  
-  
-![ABL sensor](../assets/images/head_K2Pro_abl-sensor_web.jpg)
+The procedure about how to adjust the position will be described for the specific printer model in the following section as well. 
 
   
 ---  
       
-#### Leveling The ABL Sensor
+### Leveling The ABL Sensor
 
 The tip of the ABL sensor should be ~2mm higher than the tip of the nozzle.  
 If it's too high, the sensor won't be able to detect the spring steel PEI plate and your nozzle will be driven into the build plate.    
@@ -187,13 +184,13 @@ So check if you need to level your ABL sensor in relation to the nozzle - this s
 
 The following picture shows a sensor of a different printermodel that should/has to be leveled (don't mind the tiny rest of filament at the tip of the nozzle which touches the paper instead of the nozzle itself though, I chipped it away before leveling everything).      
 
-![This sensor needs to be leveld](../assets/images/head_neo_ABL2level_web.jpg)
+![This sensor needs to be leveled](../assets/images/head_neo_ABL2level_web.jpg)  
 
-As I didn't get the plastic height gauge from Anycubic with my printer, I used the bigger one of those two-sided open ended wrenches. Check the parts that came with your printer, maybe you got the gauge shown in the following picture.  
+Therefore you can either use the ABL height gauge which sometimes comes with the printer or you can use the bigger one of the two-sided open ended wrench that comes in the toolset.  
+The following picture shows the height gauge that sometimes comes with the printer - if you don't have it and don't want to use the mentioned wrench, you can download [the gcode file](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Height_gauge.rar?v=1667814312) from Anycubic's support page and print it.  
 
 ![ABL height gauge](../assets/images/abl-gauge_web.jpg)
 
-If you didn't get this tool, you can also print yourself one: [ABL height gauge](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/Height_gauge.rar?v=1667814312).  
 
 See the expandable textbox below for further instructions.  
 
@@ -213,7 +210,7 @@ See the expandable textbox below for further instructions.
 
 ---
 
-#### Dismounting The ABL Sensor
+### Dismounting The ABL Sensor
 If you want to change the ABL sensor, take off the blue plastic housing of the printhead.  
 Make sure to not rip off the wires of the part cooling fan.  
 Then you'll already see the hexagon socket screw which holds the bracket of the sensor in place.  
@@ -235,11 +232,11 @@ See the expandable textbox below for further instructions.
     - Reconnect the wiring.  
     
     
-<!--
+
 !!! warning "Attention"
 
     If you dis- and remounted the ABL sensor, make sure to level the ABL sensor again and control your Z offset!  
---> 
+
 
 ---  
   
