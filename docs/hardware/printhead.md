@@ -118,7 +118,7 @@ The more 'formal' name for this is "Hot End Nozzle Adapter Board Breakout Module
 
 The following picture shows the breakout board (with the extruder motor at the left hand side) how you see it when removing the plastic housing of the printhead.  
 
-![Breakout board and motor](../assets/images/head_K2_distri-pcb_sideview_web.jpg)  
+![Breakout board and motor](../assets/images/head_K2_breakoutboard-total_web.jpg)  
 
 The following picture shows the breakout board only, with additional labels for the specific connectors.  
 
