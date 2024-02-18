@@ -1,9 +1,3 @@
-# ATTENTION:  
-# This site is currently under construction, there is still some Kobra 2 Neo specific content missing!   
-# So please come back another time.. ;)  
-
----
-
 ## Please visit the GitHub pages:  
 # [Kobra2Neo Insights](https://1coderookie.github.io/Kobra2NeoInsights/)
 
