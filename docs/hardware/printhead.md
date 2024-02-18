@@ -25,7 +25,7 @@ The following pictures show the printhead with the blue plastic cover from vario
 
 | Front side | Back side | Top view |
 |:----------:|:---------:|:--------:|
-| ![Printhead front](../assets/images/head_K2_web.jpg) | ![Printhead back](../assets/images/head_K2_back_web.jpg) | ![Printhead top](../assets/images/head_K2_topview_web.jpg) | 
+| ![Printhead front](../assets/images/head_K2_web.jpg) | ![Printhead back](../assets/images/head_K2_back_web.jpg) | ![Printhead top](../assets/images/head_K2Pro_top_web.jpg) | 
 
 The following pictures show the left and right side of the printhead with the blue plastic cover. Mind the marking at the right side where the screw for adjusting the feeder gear tension is located.   
 
