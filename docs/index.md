@@ -68,6 +68,7 @@ Please mind the **search field** in the header as well as the icon in the header
     - Thanks to **[Imaginary_Gift_8533](https://www.reddit.com/user/Imaginary_Gift_8533/)** for allowing me to use his picture of the wear & tear of his wheels!  
     - Thanks to **[Island-Strange](https://www.reddit.com/user/Island-Strange/)** for taking a picture of his shortcut bed!  
     - Thanks to **[Jaximus](https://www.reddit.com/user/Jaximus)** for allowing me to use the picture of the slipped out cartridge heater!  
+    - Thanks to **[JD154](https://github.com/JD154)** for the pics of and notes about the aluminum belt tensioners!  
     - Thanks to **[mowerheimen](https://www.reddit.com/user/mowerheimen)** for allowing me to use the picture of the crooked x-axis gantry!
     - Thanks to **[simpleman118](https://www.reddit.com/user/simpleman118)** for taking a picture of the ABL height gauge!  
     - Thanks to **[Fabulous-View-5862](https://www.reddit.com/user/Fabulous-View-5862)** for allowing me to use the picture of his clumped hotend!
