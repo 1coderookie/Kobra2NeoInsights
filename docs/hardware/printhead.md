@@ -51,11 +51,9 @@ The following pictures show the head with the mounted cover from the underside v
 
 The printhead itself is mounted to a metal plate which is running along the [x-axis gantry](axes.md#x-axis-gantry).  
 
-<!--
 | Mounting plate front side | Mounting plate back side |  
 |:------------------------:|:-----------------------:|
-| ![Plate front side](../assets/images/head_K2Neo_mounting-plate-frontside_web.jpg) | ![Plate back side](../assets/images/head_K2Neo_mounting-plate-backside_web.jpg) |  
--->
+| ![Plate front side](../assets/images/head_K2_gantry-front_web.jpg) | ![Plate back side](../assets/images/head_K2_gantry-back_web.jpg) |  
 
 The following picture shows the plate from the backside with the head being mounted, the four mounting screws are marked with a green circle.  
 
