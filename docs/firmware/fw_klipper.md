@@ -34,17 +34,17 @@ However, there are options to e.g. add a touchscreen to your host or use an old 
   
 ## Installation
 
-There are investigations by different users going on about flashing Klipper to the stock mainboard. First attempts were already successful. You can find a discussion about this [here in the Klipper discourse group](https://klipper.discourse.group/t/getting-orange-pi-3-lts-klipper-working-with-anycubic-kobra-2-neo/11278).  
-
 Basically you need to clone the Klipper repository and compile the necessary `klipper.bin` file (aka `firmware.bin`) which you flash onto the mainboard then. Please watch out for some dedicated tutorials about this procedure, as I don't offer a step by step guide here (yet) about it.  
 For further information about the installation steps please read the chapter ["Installation"](https://www.klipper3d.org/Installation.html) of the official Klipper documentation.  
 
 However, as Klipper doesn't offer the function of creating a `klipper.bin` file with the necessary setting of a 36KB bootloader yet (at least not without some sort of 'hack' - a [PR](https://github.com/Klipper3d/klipper/pull/6449) has been opened), you need to get yourself the belonging bin file somewhere else (unless you want to experiment by yourself).  
 
+You can find the discussion about this [here in the Klipper discourse group](https://klipper.discourse.group/t/getting-orange-pi-3-lts-klipper-working-with-anycubic-kobra-2-neo/11278).  
+ 
+
 !!! warning "Precompiled `klipper.bin` And `printer.cfg` Files Available!"  
 
-    A [kind user](https://www.reddit.com/user/Mysterious_Cable6854/) posted a link to his files (`klipper.bin` as well as the `printer.cfg`) on reddit, so you might want to give that a try.  
-    This is the belonging thread: [Kobra 2 Neo running Klipper (with config and guide)](https://www.reddit.com/r/anycubic/comments/1987n78/kobra_2_neo_running_klipper_with_config_and_guide/)   
+    Thanks to [AJolly](https://github.com/AJolly) who contributed the specific files, you can now find them in the ["Kobra2Neo" folder of the "Klipper4Kobra2series" repository](https://github.com/1coderookie/Klipper4Kobra2series/tree/main/Kobra2Neo).   
     (*Note: please don't reach out to me if you have any questions about these files or the settings - neither am I the creator of these files nor do I own a K2Neo myself and therefore I can't test anything - so please write a post in that thread instead. Thanks.*)  
 
 <!--
@@ -65,15 +65,8 @@ The following screenshot provided by @jokubasver shows the settings that should 
 
 -->  
 
-??? tip "Use KIAUH For Installation"
 
-    If you're installing Klipper and frontends on [different hardware like a Raspberry Pi](../printserver.md#how-to-install) and therefore don't use e.g. the MainsailOS image for the RPi, you can use [KIAUH](https://github.com/th33xitus/kiauh), which is an installation script for Klipper, KlipperScreen, frontends like Mainsail and so on.  
-    
-??? tip "Installing Frontends As A Docker Container"
-
-    If you want to install frontends like e.g. Mainsail as a Docker container, check out the [prind repository](https://github.com/mkuf/prind).
-
-Once you've created the `firmware.bin` file, copy it to the root directory (means, directly onto the card, not in a subfolder!) of your mSD card. I personally would suggest to remove all files from the mSD card and only copy the `firmware.bin` file onto it.  
+Once you've found or created the specific `klipper.bin` file, rename it to `firmware.bin` and copy it to the root directory (means, directly onto the card, not in a subfolder!) of your mSD card. I personally would suggest to remove all files from the mSD card and only copy the `firmware.bin` file onto it.  
 Then you flash it as you would do with the stock firmware. Means, you turn off the printer, put the card into the cardreader and turn on the printer.  
 Note that the screen doesn't update though after the flash procedure is done as the control unit doesn't work with Klipper anymore, it'll stick with the message "Firmware update. Please wait."! So just wait 5-10min to make sure everything had time enough to be installed.  
 Then turn off the printer, remove the card, connect your host which has OctoPrint/Mainsail/.. running with the printer using an USB-C cable and turn on the printer again.  
@@ -85,14 +78,23 @@ Now you should be able to connect OctoPrint/Mainsail/.. with the printer. If an 
     - Proceed with the [configuration checks](https://www.klipper3d.org/Config_checks.html) before you're trying to print anything!      
     - Make sure to adjust the offset for the [z-endstop (command `Z_ENDSTOP_CALIBRATE`)](https://www.klipper3d.org/Manual_Level.html#calibrating-a-z-endstop) prior to printing!  
 
+
+??? tip "Use KIAUH For Installation"
+
+    If you're installing Klipper and frontends on [different hardware like a Raspberry Pi](../printserver.md#how-to-install) and therefore don't use e.g. the MainsailOS image for the RPi, you can use [KIAUH](https://github.com/th33xitus/kiauh), which is an installation script for Klipper, Moonraker, KlipperScreen, frontends like Mainsail and so on.  
+    
+??? tip "Installing Frontends As A Docker Container"
+
+    If you want to install frontends like e.g. Mainsail as a Docker container, check out the [prind repository](https://github.com/mkuf/prind). 
+    
 ---
   
 ## Configuration  
-Besides the `firmware.bin` of Klipper (aka `klipper.bin`) you also need a file named `printer.cfg` which contains the specific settings for your model. Please refer to the official Klipper documentation about [configuring Klipper](https://www.klipper3d.org/Installation.html#configuring-klipper).  
+Besides the `klipper.bin` you also need a file named `printer.cfg` which contains the specific settings for your model. Please refer to the official Klipper documentation about [configuring Klipper](https://www.klipper3d.org/Installation.html#configuring-klipper).  
 
 I won't mention and explain all the settings here as you can just use the official documentation of Klipper to see what each setting means.   
 
-However, there is one thing I'd like to point out right now as it's causing trouble if one doesn't check on that: the lines `include specific_filename_here.cfg` in some of the example `printer.cfg` files that are available. I'll go into detail about that in the section ["include additional.cfg"](#include-additional-cfg), so please make sure to read that section as well.  
+However, there is one thing I'd like to point out right now as it's causing trouble if one doesn't check on that: the lines `[include specific_filename_here.cfg]` in some of the example `printer.cfg` files that are available. I'll go into detail about that in the section ["[include additional.cfg]"](#include-additional-cfg), so please make sure to read that section as well.  
      
 ---    
     
