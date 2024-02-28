@@ -5,7 +5,7 @@
 Can you run [Klipper](https://www.klipper3d.org/) on the stock mainboard of the Kobra 2 Neo?  
 Oh yes, you can!  
 
-The GigaDevice "GD32F303" being used on the stock mainboard is supported by the Klipper firmware. However, as Klipper doesn't offer the function of creating a `klipper.bin` file with the necessary setting of a 36KB bootloader yet (at least not without some sort of 'hack', an according [PR](https://github.com/Klipper3d/klipper/pull/6449) has been opened), you need to get yourself the belonging bin file somewhere else (unless you want to experiment by yourself) - see the notes in the section ["Installation"](#installation) further down below.     
+The GigaDevice "GD32F303" being used on the stock mainboard is supported by the Klipper firmware.      
   
 ??? tip "Important Information To Be Aware Of" 
 
@@ -34,36 +34,23 @@ However, there are options to e.g. add a touchscreen to your host or use an old 
   
 ## Installation
 
-Basically you need to clone the Klipper repository and compile the necessary `klipper.bin` file (aka `firmware.bin`) which you flash onto the mainboard then. Please watch out for some dedicated tutorials about this procedure, as I don't offer a step by step guide here (yet) about it.  
+Basically you need to clone the Klipper repository and compile the necessary `klipper.bin` file (which you then rename to `firmware.bin` to actually flash the stock mainboard) which you flash onto the mainboard then. Please watch out for some dedicated tutorials about this procedure, as I don't offer a step by step guide here (yet) about it.  
 For further information about the installation steps please read the chapter ["Installation"](https://www.klipper3d.org/Installation.html) of the official Klipper documentation.  
 
-However, as Klipper doesn't offer the function of creating a `klipper.bin` file with the necessary setting of a 36KB bootloader yet (at least not without some sort of 'hack' - a [PR](https://github.com/Klipper3d/klipper/pull/6449) has been opened), you need to get yourself the belonging bin file somewhere else (unless you want to experiment by yourself).  
+You can find the intial discussion about getting Klipper running on the Kobra 2 Neo [here in the Klipper discourse group](https://klipper.discourse.group/t/getting-orange-pi-3-lts-klipper-working-with-anycubic-kobra-2-neo/11278).  
 
-You can find the discussion about this [here in the Klipper discourse group](https://klipper.discourse.group/t/getting-orange-pi-3-lts-klipper-working-with-anycubic-kobra-2-neo/11278).  
- 
+**According to those posts**, to build the correct firmware, use the following configuration during the setup process for creating the `klipper.bin` file:  
+
+- Micro-controller Architecture: STMicroelectronics STM32
+- Processor model: STM32F103  
+- Communication interface: Serial on USART1 PA10/PA9 with 115200 baud rate   
+  
+
 
 !!! warning "Precompiled `klipper.bin` And `printer.cfg` Files Available!"  
 
     Thanks to [AJolly](https://github.com/AJolly) who contributed the specific files, you can now find them in the ["Kobra2Neo" folder of the "Klipper4Kobra2series" repository](https://github.com/1coderookie/Klipper4Kobra2series/tree/main/Kobra2Neo).   
     (*Note: please don't reach out to me if you have any questions about these files or the settings - neither am I the creator of these files nor do I own a K2Neo myself and therefore I can't test anything - so please write a post in that thread instead. Thanks.*)  
-
-<!--
-To build the correct firmware, use the following configuration during the setup process for creating the `klipper.bin` file:  
-
-- Micro-controller: Huada Semiconductor HC32F460
-- Communication interface: Serial (PA3 & PA2) - Anycubic  
-  
-You also now have two more options to choose from, the clock speed and the app address: 
-
-- The 200MHz option was added in June 2023, see [hc32f460: Revert default clock back to 200MHz](https://github.com/klipper3d/klipper/pull/6291).  
-  Due to @jokubasver findings described [here](https://github.com/1coderookie/Klipper4KobraGoNeo/discussions/2#discussioncomment-6771797) it doesn't seem to be advisable to use the 200MHz setting right now.    
-- About the app address option: also that was added in June 2023. The option "0x10000" is for the Kobra 2 though, so it's **not** for us (Go/Neo) (see [hc32f460: Add app address 0x10000](https://github.com/klipper3d/klipper/pull/6269)) - use the option "0x008000".
-
-The following screenshot provided by @jokubasver shows the settings that should be used when choosing the options for compiling the `klipper.bin` file.  
-
-![Klipper compile settings](../assets/images/klipper-compile-settings.png)  
-
--->  
 
 
 Once you've found or created the specific `klipper.bin` file, rename it to `firmware.bin` and copy it to the root directory (means, directly onto the card, not in a subfolder!) of your mSD card. I personally would suggest to remove all files from the mSD card and only copy the `firmware.bin` file onto it.  
