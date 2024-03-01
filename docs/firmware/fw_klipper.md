@@ -42,8 +42,9 @@ You can find the intial discussion about getting Klipper running on the Kobra 2 
 **According to those posts**, to build the correct firmware, use the following configuration during the setup process for creating the `klipper.bin` file:  
 
 - Micro-controller Architecture: STMicroelectronics STM32
-- Processor model: STM32F103  
-- Communication interface: Serial on USART1 PA10/PA9 with 115200 baud rate   
+- Processor model: STM32F103
+- Bootloader: 36KiB  
+- Communication interface: Serial on USART2 PA3/PA2 with 115200 baud rate   
   
 
 
