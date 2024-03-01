@@ -51,7 +51,7 @@ You can find the intial discussion about getting Klipper running on the Kobra 2 
 !!! warning "Precompiled `klipper.bin` And `printer.cfg` Files Available!"  
 
     Thanks to [AJolly](https://github.com/AJolly) who contributed the specific files, you can now find them in the ["Kobra2Neo" folder of the "Klipper4Kobra2series" repository](https://github.com/1coderookie/Klipper4Kobra2series/tree/main/Kobra2Neo).   
-    (*Note: please don't reach out to me if you have any questions about these files or the settings - neither am I the creator of these files nor do I own a K2Neo myself and therefore I can't test anything - so please write a post in that thread instead. Thanks.*)  
+    (*Note: please don't reach out to me if you have any questions about these files or the settings - neither am I the creator of these files nor do I own a K2Neo myself and therefore I can't test anything. Thanks.*)  
 
 
 Once you've found or created the specific `klipper.bin` file, rename it to `firmware.bin` and copy it to the root directory (means, directly onto the card, not in a subfolder!) of your mSD card. I personally would suggest to remove all files from the mSD card and only copy the `firmware.bin` file onto it.  
