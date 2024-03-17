@@ -28,10 +28,21 @@ The following pictures show the bedplate (without the PEI plate) from the top an
 The build volume is 220x220mm.  
 Anycubic states in the official specs that the *size* is 220x220mm as well - which is definitely wrong and misleading though, as the *physical* dimension of the bed is 230x230mm.  
 
-!!! warning "Attention: Bed Size"  
+!!! warning "Attention: Bed/Plate Size"  
 
     If you're looking for a bedplate, a magnetic foil or just a PEI plate from a third party company, you need to get yourself a *230x230mm* plate, otherwise it would be too small!  
     As it seems that most parts out there are either 220x220mm or 235x235mm, get yourself the 235x235mm version then. There is about 4mm space between the z-axis aluminum frames and the original bedplate, so if you pay attention to position e.g. the bigger PEI plate from the aftermarket correctly, then it'll fit.     
+??? info "Using The Whole Build Size"  
+
+    Even though the size of 220x220mm is set in the firmware as follows  
+    ```
+    // The size of the printable area
+    #define X_BED_SIZE 220
+    #define Y_BED_SIZE 220    
+    ```
+    you can set the size to 230x230mm in the slicer and use the whole printbed size.  
+    *However, if you do this, please be careful and pay close attention when trying to print anything bigger than 220x220mm!*  
+    
 
 The temperature of the bed should reach about ≤230°F/110°C maximum and therefore it's possible to successfully print e.g. ABS, PETG and TPU (by using a housing though) besides PLA.  
 
