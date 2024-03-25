@@ -23,6 +23,7 @@ The GigaDevice "GD32F303" being used on the stock mainboard is supported by the 
 ---
   
 ## Requirements
+
 If you want to use Klipper with your printer, you'll need additional hardware for having a host running Moonraker and Mainsail/Fluidd/Octoprint on, which then gets connected to the printer (which has to be flashed with the Klipper firmware of course). This doesn't has to be a RaspberryPi, pretty much every device you could run Linux on is suitable. Just use the [KIAUH](https://github.com/th33xitus/kiauh) script for an easy installation of the belonging software like Moonraker and e.g. Mainsail.   
 **Please see the chapter ["Printserver"](../printserver.md) for some hardware I listed which you could use for that.**  
 
@@ -44,13 +45,13 @@ You can find the intial discussion about getting Klipper running on the Kobra 2 
 - Micro-controller Architecture: STMicroelectronics STM32
 - Processor model: STM32F103
 - Bootloader: 36KiB  
-- Communication interface: Serial on USART2 PA3/PA2 with 115200 baud rate   
+- Communication interface: Serial on USART2 PA3/PA2 with 115200 baud rate (or 250000 if you want to use USB connection)    
   
+![K2Neo compile config](../assets/images/K2Neo_bin-cfg.jpg)   
 
+!!! warning "File `printer.cfg` Available!"  
 
-!!! warning "Precompiled `klipper.bin` And `printer.cfg` Files Available!"  
-
-    Thanks to [AJolly](https://github.com/AJolly) who contributed the specific files, you can now find them in the ["Kobra2Neo" folder of the "Klipper4Kobra2series" repository](https://github.com/1coderookie/Klipper4Kobra2series/tree/main/Kobra2Neo).   
+    Thanks to [AJolly](https://github.com/AJolly) who contributed the specific file, you can now find them in the ["Kobra2Neo" folder of the "Klipper4Kobra2series" repository](https://github.com/1coderookie/Klipper4Kobra2series/tree/main/Kobra2Neo).   
     (*Note: please don't reach out to me if you have any questions about these files or the settings - neither am I the creator of these files nor do I own a K2Neo myself and therefore I can't test anything. Thanks.*)  
 
 
