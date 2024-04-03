@@ -6,16 +6,16 @@
 | Specifications |
 |:---------------|
 | **Feeder system**: Direct drive, single gear |
-| **Thermistor**: 24V, 100k NTC "EPCOS 100K B57560G104F" type, capsuled, dimensions 3x5.5mm, two pinned JST PH 2.0 (?) connector |
+| **Thermistor**: 24V, 100k NTC "EPCOS 100K B57560G104F" type, capsuled, dimensions 3x5.5mm, two pinned JST PH 2.0 connector |
 | **Heater Cartridge**: 24V, 60W, ~10.5 Ohm, dimensions 6x18.5mm, two pinned Molex Micro-Fit 3.0 (item-no. 43645-0200) connector |
 | **Nozzle**: proprietary Volcano-like nozzle (*not* compatible with Volcano!), 0.4mm |
 | **Heater Block**: Volcano-like type |
-| **Heatbreak**: M6 thread (to fit in the heater block), overall length 25/26(?)mm, 6mm OD / 4mm ID, PTFE tube inliner |  
+| **Heatbreak**: M6 thread (to fit in the heater block), overall length 26mm, 6mm OD / 4mm ID, PTFE tube inliner |  
 | **PTFE tube**: <br> **Hotend**: ~41mm inliner for the heatbreak, ~4mm OD / ~2mm ID bore <br> **Reverse bowden tube** (between filament runout sensor and printhead): ~???mm <br> *Both PTFE tubes can/should be replaced with a "Capricorn XS" tube (for 1.75mm filament).* |  
 | **Silicone Sock**: Volcano-style type |
 | **Part Cooling Fan**: 24V, 0.2A, 50x50x20mm, model "Coolcox BF5020H24D"  |
 | **Heatsink Cooling Fan**: 24V, 0.08A, 30x30x10mm, model "HSC BCY3010D24H"  |
-| **ABL sensor**: PNP-NO type (imho!), connection: brown = VCC 24VDC; blue = GND; black = LEVEL/signal (seems to be the same as the one being used at the 'old' regular Kobra) |  
+| **ABL sensor**: PNP-NO type, 6-36V DC, connection: brown = VCC 24VDC; blue = GND; black = LEVEL/signal |  
 | **Breakout board**: V0.1.5 |
 
 
@@ -156,8 +156,7 @@ The ABL sensor itself is mounted in a plastic bracket which is then mounted to t
 ![ABL sensor](../assets/images/head_K2Pro_abl-sensor_web.jpg)
 
 
-The sensor itself seems to be the same as the one being used at the regular Kobra, so if you need a replacement and can't find it for this specific model, look out for the one of the Kobra as well.  
-In a German 3d forum someone measured the sensor of the regular Kobra and it gives +24VDC on the black signal wire when the LED lights up, so imho that's a PNP-NO type then (as the level is HIGH then).  
+The sensor is a PNP-NO type, 6-36V DC.  
 The connections are:  
 
 - brown = VCC 24VDC
@@ -773,7 +772,7 @@ The following pictures show the stock silicone sock from different angles.
   
 ## Thermistor 
 The thermistor which is used is a capsuled 100k NTC "EPCOS 100K B57560G104F" type.    
-The diameter is 3mm, the length is about 5.5mm. It comes with a short wiring and the specific connector (JST PH 2.0 (?)) attached.  
+The diameter is 3mm, the length is about 5.5mm. It comes with a short wiring and the specific connector (JST PH 2.0) attached.  
 
 The following picture shows the stock thermistor being used.  
 
@@ -786,7 +785,7 @@ The thermistor is plugged into the belonging hole of the heater block and is the
 ![Thermistor and block](../assets/images/head_K2Pro_thermistor-block-screw_web.jpg)  
 
 
-The following picture shows the connector being used, it's a two pin JST PH-2.0 (?) type.  
+The following picture shows the connector being used, it's a two pin JST PH-2.0 type.  
 
 ![Thermistor connector](../assets/images/head_K2Pro_thermistor-plug.jpg)
 
@@ -911,7 +910,7 @@ If you need to replace the thermistor of the hotend, see the expandable textbox 
 
 ## Cartridge Heater
 
-The cartidge heater which is used is a **24V 60W** element.  
+The cartridge heater which is used is a **24V 60W** element.  
 The diameter is 6mm, the length of the original part is about 18mm. The stock part comes with a short wiring and the specific two pinned [Molex Micro-Fit 3.0 (item-no. 43645-0200)](https://www.molex.com/en-us/products/part-detail/436450200) connector attached.    
 
 The following picture shows the stock cartridge heater being used.  
