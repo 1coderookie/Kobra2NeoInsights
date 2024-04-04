@@ -11,7 +11,7 @@
 | **Nozzle**: proprietary Volcano-like nozzle (*not* compatible with Volcano!), 0.4mm |
 | **Heater Block**: Volcano-like type |
 | **Heatbreak**: M6 thread (to fit in the heater block), overall length 26mm, 6mm OD / 4mm ID, PTFE tube inliner |  
-| **PTFE tube**: <br> **Hotend**: ~41mm inliner for the heatbreak, ~4mm OD / ~2mm ID bore <br> **Reverse bowden tube** (between filament runout sensor and printhead): ~???mm <br> *Both PTFE tubes can/should be replaced with a "Capricorn XS" tube (for 1.75mm filament).* |  
+| **PTFE tube**: <br> **Hotend**: ~41mm inliner for the heatbreak, ~4mm OD / ~2mm ID bore <br> **Reverse bowden tube** (between filament runout sensor and printhead): ~400mm <br> *Both PTFE tubes can/should be replaced with a "Capricorn XS" tube (for 1.75mm filament).* |  
 | **Silicone Sock**: Volcano-style type |
 | **Part Cooling Fan**: 24V, 0.2A, 50x50x20mm, model "Coolcox BF5020H24D"  |
 | **Heatsink Cooling Fan**: 24V, 0.08A, 30x30x10mm, model "HSC BCY3010D24H"  |
@@ -156,7 +156,7 @@ The ABL sensor itself is mounted in a plastic bracket which is then mounted to t
 ![ABL sensor](../assets/images/head_K2Pro_abl-sensor_web.jpg)
 
 
-The sensor is a PNP-NO type, 6-36V DC.  
+The sensor is a PNP-NO type, 6-36V DC, with a three pin PH 2.0 connector.  
 The connections are:  
 
 - brown = VCC 24VDC
@@ -393,7 +393,8 @@ The assembled hotend is shown in the following picture.
 
 ??? info "Spare Part Hotend"
 
-    - At the time of writing there are already 3rd party hotends available. Look out for "Anycubic Kobra 2 Hotend" or similar. You can find a complete hotend including the thermistor and cartrdige heater for around 15 bucks.      
+    - You can find compatible hotends from 3rd party manufacturers for around 5 bucks already at sites like Amazon, ebay and AliExpress. Look out for "Anycubic Kobra 2 Hotend" or similar. They come completely assembled with all the parts like thermistor, cartridge heater, silicone sock etc.  
+      I'd suggest to always have a spare one in the drawer, just in case.    
     - If the old thermistor and/or cartridge heater are still good and the wires aren't harmed, you don't have to look around for getting new ones! Just take the existing ones out of the old heater block and install them into the new one.    
     - However, scroll down and check out the "Disassembling" section below to see how to dis- and reassemble it. *Maybe you don't need new parts, so try to clean up everything first and reassemble it before ordering new parts right away.*    
   
@@ -474,7 +475,7 @@ If you need to dismount the hotend from the printhead to change it or if you nee
     - Then push the heatbreak back into the specific hole of the heatsink - make sure you push it deep enough (I personally push it as far into it as it goes).  
     - Turn the hotend so that the wires which are coming from the heater block are hanging freely and aren't bent too much.  
     - Then tighten up the two grub screws at the heatsink which hold the heatbreak in place, so that the hotend doesn't turn or wiggle anymore (but don't overtighten the screws though).  
-    - Plug in the cartidge heater and thermistor back into their corresponding connectors.  
+    - Plug in the cartridge heater and thermistor back into their corresponding connectors.  
     - Turn on the printer and heat up the nozzle to ~230-240°C. Once the temperature is reached, tighten up the nozzle with about 1.5NM force.  
       **Make sure to hold the heater block in place with an adjustable wrench or spanner and strictly avoid any movement of it - make sure to not pinch or harm any wires while doing so!**  
     - Once everything is done, reconnect the part cooling fan to the breakout board and mount the plastic cover.   
@@ -638,7 +639,7 @@ Both PTFE tubes have the outer diameter of ~4mm and the inner diameter of ~2mm a
 ---
 
 ### Reverse Bowden  
-The reverse bowden tube, which is the PTFE tube between the printhead and the filament runout sensor, is about ??mm long.  
+The reverse bowden tube, which is the PTFE tube between the printhead and the filament runout sensor, is about 400mm long.  
 It acts as a guidance and protection for the fed filament and is clipped onto the wiring of the printhead.    
 
 (add pic)  
