@@ -340,7 +340,6 @@ Fluidd is kinda similar to Mainsail, so it's a great alternative if you don't wa
 The following screenshot shows the dashboard overview of Fluidd (without a camera for monitoring the printer being used).  
 
 ![Fluid UI](../assets/images/fluidd_screenshot.png)
--->    
 
 ---
 
