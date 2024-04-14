@@ -319,6 +319,8 @@ The limit switch is located inside of the blue plastic cover at the left hand si
 
 ## X-Axis Gantry
 The x-axis gantry is the aluminum profile (plus the corresponding parts) where the printhead is actually running onto.  
+
+![x-gantry](../assets/images/axes_K2_xgantry_web.jpeg)  
  
 ---
 
