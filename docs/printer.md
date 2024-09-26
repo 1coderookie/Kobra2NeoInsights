@@ -1,5 +1,9 @@
 <link rel=”manifest” href=”docs/manifest.webmanifest”>
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U6U5NPB51)  
+
+---  
+
 # Printer
 The Anycubic [Kobra 2 Neo](https://www.anycubic.com/products/kobra-2-neo) is an entry-level bedslinger FDM printer which is advertised as being capable to print at 150mm/s speed (up to 250mm/s max).  
   
