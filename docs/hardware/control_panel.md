@@ -1,5 +1,9 @@
 <link rel=”manifest” href=”docs/manifest.webmanifest”>
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U6U5NPB51)  
+
+---  
+
 # Control Panel  
 The control unit of the Kobra 2 Neo is a 2.4" LCD screen with a control knob at the right side next to it.  
 There is no additional microSD card slot located at this panel.  
