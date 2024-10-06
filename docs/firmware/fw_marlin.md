@@ -36,7 +36,7 @@ In the following I'll list the (imho) most important settings from the files
 - [`../source/Marlin/Configuration_adv.h`](https://github.com/ANYCUBIC-3D/Kobra2_Neo/blob/main/Marlin/Configuration_adv.h).   
    
 The following represents the state of the firmware version 1.5.6.3.  
-You can find the files `Configuration.h`and`Configuration_adv.h` here: [https://github.com/ANYCUBIC-3D/Kobra2_Neo/tree/main/Marlin](https://github.com/ANYCUBIC-3D/Kobra2_Neo/tree/main/Marlin)  
+You can find the files `Configuration.h`and`Configuration_adv.h` here: [https://github.com/ANYCUBIC-3D/Kobra2_Neo/tree/master/Marlin](https://github.com/ANYCUBIC-3D/Kobra2_Neo/tree/master/Marlin)  
 
 **Note: I'll add the content asap, until then please have a look at the files yourself.**
 
