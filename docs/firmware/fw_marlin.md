@@ -16,7 +16,7 @@ You can either
 In case you want to build and compile your own `firmware.bin` file, you can follow the instructions of @[jojos38](https://github.com/jojos38) [Tutorial: How to build Anycubic Marlin sourcecode into a firmware.bin](https://www.reddit.com/r/anycubic/comments/y2waxu/tutorial_how_to_build_anycubic_marlin_source_code/).  
 Please mind the following warning though.  
 
-??? warning "Firmware Source Code Files Seem To Be Incomplete  
+??? warning "Firmware Source Code Files Seem To Be Incomplete"   
     
     User [that-ambuj](https://github.com/that-ambuj) noticed that the file `anycubic.uvprojx` is missing (*Thanks for reaching out!*), which seems to be necessary to compile the firmware. If you have any helpful information about this or how to compile the firmware even though this file is missing, [please contribute to this GitHub discussion](https://github.com/1coderookie/Kobra2NeoInsights/discussions/5).  
 
