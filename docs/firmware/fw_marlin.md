@@ -18,7 +18,8 @@ Please mind the following warning though.
 
 ??? warning "Firmware Source Code Files Seem To Be Incomplete"   
     
-    User [that-ambuj](https://github.com/that-ambuj) noticed that the file `anycubic.uvprojx` is missing (*Thanks for reaching out!*), which seems to be necessary to compile the firmware. If you have any helpful information about this or how to compile the firmware even though this file is missing, [please contribute to this GitHub discussion](https://github.com/1coderookie/Kobra2NeoInsights/discussions/5).  
+    User [that-ambuj](https://github.com/that-ambuj) noticed that it seems to not bei possible to compile the files from Anycubic's repository due to missing files, you can see the discussion about it [here](https://github.com/1coderookie/Kobra2NeoInsights/discussions/5)).  
+    Thankfully user [GNN3](https://github.com/GNN3) provided a solution for this, please see [his according comments](https://github.com/1coderookie/Kobra2NeoInsights/discussions/5#discussioncomment-11296875).  
 
 ---
   
