@@ -38,8 +38,8 @@ If so, everything is fine. If not, check if you really copied the correct versio
 ## Default Settings 
 In the following I'll list the (imho) most important settings from the files  
 
-- [`../source/Marlin/Configuration.h`](https://github.com/ANYCUBIC-3D/Kobra2_Neo/blob/main/Marlin/Configuration.h) and 
-- [`../source/Marlin/Configuration_adv.h`](https://github.com/ANYCUBIC-3D/Kobra2_Neo/blob/main/Marlin/Configuration_adv.h).   
+- [`../source/Marlin/Configuration.h`](https://github.com/ANYCUBIC-3D/Kobra2_Neo/blob/master/Marlin/Configuration.h) and 
+- [`../source/Marlin/Configuration_adv.h`](https://github.com/ANYCUBIC-3D/Kobra2_Neo/blob/master/Marlin/Configuration_adv.h).   
    
 The following represents the state of the firmware version 1.5.6.3.  
 You can find the files `Configuration.h`and`Configuration_adv.h` here: [https://github.com/ANYCUBIC-3D/Kobra2_Neo/tree/master/Marlin](https://github.com/ANYCUBIC-3D/Kobra2_Neo/tree/master/Marlin)  
