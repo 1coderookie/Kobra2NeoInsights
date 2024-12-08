@@ -527,11 +527,14 @@ This seems to be due to the fact that (afaik) there's some kind of problem with 
    
   
 ## Mods
-Once I'll come across compiled and modded versions of the original firmware which are being offered by users, I'll list them here.  
-  
+
 !!! warning
 
     Use at your own risk!  
+
+- User [that-ambuj](https://github.com/that-ambuj) offers a slightly modified stock firmware with MEATPACK and other features enabled in [his GitHub repository](https://github.com/that-ambuj/Kobra2_Neo/tree/octoprint-stutter-fix).
+  
+
 
   
 
