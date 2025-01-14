@@ -49,7 +49,8 @@ You can find the intial discussion about getting Klipper running on the Kobra 2 
 - Micro-controller Architecture: STMicroelectronics STM32
 - Processor model: STM32F103
 - Bootloader: 36KiB  
-- Communication interface: Serial on USART2 PA3/PA2 with 115200 baud rate (or 250000 if you want to use USB connection)    
+- Communication interface: Serial on USART2 PA3/PA2 with 115200 baud rate  
+  (Attention: you can try using 250000 when using a USB connection as shown in the screenshot below, but then you have to adjust the according setting in the `printer.cfg` file as well!)    
   
 ![K2Neo compile config](../assets/images/K2Neo_bin-cfg.jpg)   
 
