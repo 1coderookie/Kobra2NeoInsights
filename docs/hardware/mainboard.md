@@ -9,7 +9,7 @@
 ## TriGorilla V_4.0.1 (Stock) 
   
 The stock mainboard is the "TriGorilla V_4.0.1".  
-It's a 32bit 24V mainboard with a GigaDevice MCU labeled as "GD32F303" which seems to be an ARM Cortex-M4 with 120MHz, 512K flash and 64K SRAM.   
+It's a 32bit 24V mainboard with a GigaDevice MCU labeled as "GD32F303" which seems to be an ARM Cortex-M4 with 120MHz, 1024k Flash and 96k RAM.   
 
 It offers a microSD card reader, a USB-C connector and a 10 pin connector for adding the control unit.    
 The mainboard comes with TMC2208(?) silent stepper drivers *soldered* onto the board (so they can't be just swapped out!). 
