@@ -18,11 +18,14 @@ The GigaDevice "GD32F303" being used on the stock mainboard is supported by the 
     - You'd need a host to run additional software like OctoPrint or Mainsail for being able to use the printer with Klipper. See the belonging section further down below for some information and my personal recommendation abput what to use.  
     If you don't have a host running OctoPrint/Mainsail/.. yet, see the chapter ["Printserver"](../printserver.md) for some information about hardware you could use for that.    
       
-
+<!--
 ??? info "What Is Klipper?"
 
     Long story short: Klipper is an 'alternative' firmware which gives you way more possibilities and even functions for configuring and using your 3D printer. If you don't know what Klipper is, this may be a good start for your research: [All3DP: Klipper](https://www.all3dp.com/topic/klipper)  
+-->
+!!! warning  
 
+    In the following, I **don't** give a step-by-step guide about how to install and configure Klipper, so please read the official documentation attentively!  
 
 ---
   
